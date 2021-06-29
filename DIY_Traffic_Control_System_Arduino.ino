@@ -16,25 +16,25 @@ int maxWaitTime{10000}, maxPedWaitTime{10000};
 
 int green_id {0};
 
-int emer1 {8}, emer2 {9}, emer3 {10}, emer4 {11};
-// int emer1 {4}, emer2 {5}, emer3 {8}, emer4 {9};
+// int emer1 {8}, emer2 {9}, emer3 {10}, emer4 {11};
+int emer1 {4}, emer2 {5}, emer3 {8}, emer4 {9};
 
 Adafruit_MCP23017 mcp;
 
+/*
 TrafficPole lane1(1, 0, 1, 2, A0);
 TrafficPole lane2(2, 3, 4, 5, A1);
 TrafficPole lane3(3, 6, 7, 8, A2);
 TrafficPole lane4(4, 9, 10, 11, A3);
+*/
 
-/*
 TrafficPole lane1(1, 8, 9, 10, A3);
 TrafficPole lane2(2, 5, 6, 7, A2);
 TrafficPole lane3(3, 2, 1, 0, A1);
 TrafficPole lane4(4, 13, 14, 15, A0);
-*/
 
-Pedestrian pedestrian(5, 12, 13, 14, 4, 5, 6, 7);
-// Pedestrian pedestrian(5, 12, 11, 3, 2, 3, 6, 7);
+// Pedestrian pedestrian(5, 12, 13, 14, 4, 5, 6, 7);
+Pedestrian pedestrian(5, 12, 11, 3, 2, 3, 6, 7);
 
 void setup()
 {
