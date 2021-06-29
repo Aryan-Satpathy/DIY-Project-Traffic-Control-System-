@@ -1,6 +1,7 @@
+# Arduio (ino) file
 This is the arduino (ino) file.
 
-I uses Adafruit_MCP23017 library for this project.
+I used Adafruit_MCP23017 library for this project.
 Other than that I used the Traffic and Pedestrains library that I made.
 
 Basically the "counting mechanism" is as follows :
